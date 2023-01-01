@@ -1,9 +1,16 @@
 import React from "react";
+import Categories from "./Categories";
+import SlideCard from "./SlideCard";
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <section className="home">
+        <div className="container d_flex">
+          <Categories />
+          <SlideCard />
+        </div>
+      </section>
     </>
   );
 };

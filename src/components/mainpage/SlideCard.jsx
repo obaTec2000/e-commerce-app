@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 function SlideCard() {
   return (
     <div>
-      SlideCard
+      <h1>SlideCard</h1>
     </div>
   );
 }
