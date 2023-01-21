@@ -11,7 +11,7 @@ import FlashDeals from "../components/flashDeals/FlashDeals"
 const Pages = ({ productItems, addToCart, CartItem, shopItems }) => {
   return (
     <>
-      <Home CartItem={CartItem} />
+      <Home CartItem={CartItem} />  
       <FlashDeals productItems={productItems} addToCart={addToCart} />
       {/* <TopCate />
       <NewArrivals />

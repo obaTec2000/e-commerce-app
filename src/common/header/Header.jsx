@@ -1,17 +1,17 @@
-import React from "react";
-import "./Header.css";
-import Head from "./Head";
-import Navbar from "./Navbar";
-import Search from "./Search";
+import React from "react"
+import "./Header.css"
+import Head from "./Head"
+import Search from "./Search"
+import Navbar from "./Navbar"
 
-const Header = () => {
+const Header = ({ CartItem }) => {
   return (
     <>
       <Head />
-      <Search />
+      <Search CartItem={CartItem} />
       <Navbar />
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
