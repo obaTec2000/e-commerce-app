@@ -5,7 +5,7 @@ import Header from "./common/header/Header"
 import Pages from "./pages/Pages"
 import Data from "./components/Data"
 import Cart from "./common/cart/Cart.jsx"
-// import Footer from "./common/footer/Footer"
+import Footer from "./common/footer/Footer"
 import Sdata from "./components/shops/Sdata"
 
 function App() {
@@ -56,7 +56,7 @@ function App() {
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   )
