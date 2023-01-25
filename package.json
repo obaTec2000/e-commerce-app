@@ -1,7 +1,7 @@
 {
   "name": "e-commerce-app",
   "version": "0.1.0",
-  "homepage": "obatec2000.github.io",
+  "homepage": "https://obatec2000.github.io/e-commerce-app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
